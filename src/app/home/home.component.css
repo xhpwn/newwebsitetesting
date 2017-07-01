@@ -60,7 +60,7 @@
 }
 
 
-#section01 { background: url("app/imgs/bgimg.jpg") center center / cover no-repeat;
+#section01 { background: url("../imgs/bgimg.jpg") center center / cover no-repeat;
   height: 100vh;
 }
 
