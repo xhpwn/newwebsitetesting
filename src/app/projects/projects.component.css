@@ -81,9 +81,14 @@
   font-family: Helvetica;
 }
 
-.epione {
+.epione, .epione a:visited {
 	font-size: 1.25em;
 	color: #003ca3;
+}
+
+.epione a:hover {
+	opacity: 0.5;
+	text-decoration: none;
 }
 
 .project-sub {
@@ -91,24 +96,44 @@
 	color: black;
 }
 
-.hacksaw {
+.hacksaw, .hacksaw a:visited {
 	font-size: 1.25em;
 	color: #006902;
 }
 
-.datonate {
+.hacksaw a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.datonate, .datonate a:visited {
 	font-size: 1.25em;
 	color: #3800a7;
 }
 
-.acidrain {
+.datonate a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.acidrain, .acidrain a:visited {
 	font-size: 1.25em;
 	color: #ab0000;
 }
 
-.proxyhunt {
+.acidrain a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.proxyhunt, .proxyhunt a:visited {
 	font-size: 1.25em;
 	color: #ae5800;
+}
+
+.proxyhunt a:hover {
+	opacity: 0.5;
+	text-decoration: none;
 }
 
 .photog {
