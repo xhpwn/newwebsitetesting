@@ -68,12 +68,66 @@
 }
 
 
-#section01 { background: url("/assets/imgs/bgimg.jpg") center center / cover no-repeat;
+#section01 { background: url("/imgs/bgimg.jpg") center center / cover no-repeat;
   height: 100vh;
 }
 
 .sectionsplitter {
     text-align: center;
+		max-width: 50%;
+		margin-left: 25%;
+		padding-top: 2%;
+		font-size: 1.45em;
+  font-family: Helvetica;
+}
+
+.epione {
+	font-size: 1.25em;
+	color: #003ca3;
+}
+
+.project-sub {
+	font-size: 0.8em;
+	color: black;
+}
+
+.hacksaw {
+	font-size: 1.25em;
+	color: #006902;
+}
+
+.datonate {
+	font-size: 1.25em;
+	color: #3800a7;
+}
+
+.acidrain {
+	font-size: 1.25em;
+	color: #ab0000;
+}
+
+.proxyhunt {
+	font-size: 1.25em;
+	color: #ae5800;
+}
+
+.photog {
+	font-size: 0.8em;
+	color: #0a922d;
+}
+
+
+.sectionsplitter2 {
+    text-align: center;
+		max-width: 50%;
+		margin-left: 25%;
+		padding-top: 2%;
+}
+
+.sectionsplitter3 {
+    text-align: center;
+		max-width: 50%;
+		margin-left: 25%;
 }
 
 .soclogos {
@@ -235,6 +289,15 @@
   max-width: 100%;
   padding-top: 4%;
   text-align: center;
+  font-family: Helvetica;
+}
+
+.sectiontext3 {
+  font-size: 1.2em;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: center;
 	font-style: italic;
   font-family: Helvetica;
 }
@@ -328,8 +391,6 @@ hr.style13 {
 
 
 
-
-
 @media only screen and (min-width: 768px) {
 
   .people {
@@ -371,5 +432,6 @@ hr.style13 {
   font-family: Helvetica;
   font-weight: bold;
 }
+
 
 }
